@@ -4,6 +4,8 @@ const input2 = document.querySelector('#number2');
 const btnCalculate = document.querySelector('#btnCalculate');
 const result = document.querySelector('.result');
 
+btnCalculate.addEventListener('click',onClick);
+
 function onClick(){
     
     var sum = Number(input1.value) + Number(input2.value);
