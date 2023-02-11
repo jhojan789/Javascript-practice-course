@@ -5,11 +5,10 @@ const btnCalculate = document.querySelector('#btnCalculate');
 const result = document.querySelector('.result');
 const form = document.querySelector('#form');
 
-form.addEventListener('submit',onSubmit);
+form.addEventListener('click',onClick);
 
-function onSubmit(event){
-    console.log({event});
-    event.preventDefault();
+function onClick(){
+
     var sum = Number(input1.value) + Number(input2.value);
 
     console.log(sum);
